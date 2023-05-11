@@ -1,0 +1,179 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+body{
+    background-color: #d5d6d8;
+    width: 100%;
+}
+
+header {
+    border-radius: 10px;
+    background-color: #696d4d;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+header img {
+    float: left;
+    margin: 20px 10px 0px 10px;
+    
+}
+
+div#wrapper {
+    margin: 10px;
+   
+}
+
+aside {
+    display: inline;
+    vertical-align: top;
+    margin: 10px;
+}
+
+nav {
+    margin: 0px 10px 0px 0px;
+    top: 0px;
+    border-radius: 10px;
+    background-color: #444a88;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 15px 0px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0px 15px;
+}
+
+nav ul li.active {
+    background-color: #232850;
+    border-radius: 10px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+div#gallery {
+    margin: 0 auto; 
+    width: 800;
+    text-align: center;
+}
+
+div.image { 
+    display: inline-block; 
+}
+
+div.image img { 
+    width: 700px;
+}
+
+div#content {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #958365;
+    padding: 15px;
+}
+
+div#content img{
+    float: right;
+    width: 20em;
+    height: auto;
+    margin: 0 0 15px 15px;
+    padding: 3px;
+    border: 5px solid #696d4d;
+}
+
+div#content gallery{
+    width: 800px;
+    margin: 0 auto;
+    padding: 1px;
+    list-style-type: none;
+    overflow: auto;
+    display: table-cell;
+}
+div#content image{
+    width: 800px;
+    margin: 0 auto;
+    padding: 1px;
+    list-style-type: none;
+    overflow: auto;
+    display: table-cell;
+}
+
+div#content map{
+    text-align: center;
+}
+
+div#contact{
+    text-align: left;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px 20px;
+    background-color: #696d4d;
+    width: 100%;
+}
+div#form{
+text-align: left;
+
+}
+
+label {
+	line-height: 10px;
+    width: 100px;
+    display: inline-block;
+    
+}
+
+label input, label textarea {
+	border: 2px #696d4d solid;
+	padding: 5px;
+    margin: 10px 10px 10px 100px;
+    
+}
+
+
+textarea {
+	width: 250px;
+   
+}
+
+input[type="submit"] {
+
+	float: left;
+	clear: both;
+
+}
+
+button {
+	float: left;
+
+}
